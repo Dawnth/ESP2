@@ -1,0 +1,100 @@
+[Global]
+CurrentProject=ESP2\ESP2.vpj
+[ActiveConfig]
+ESP2\ESP2.vpj=,Debug|AnyCPU
+[ProjectDates]
+ESP2\ESP2.csproj=20151215063026221
+[TreeExpansion2]
+- ESP2\ESP2.csproj
+  + Properties
+    - ESP2\Properties\AssemblyInfo.cs
+    - ESP2\Properties\Resources.Designer.cs
+    - ESP2\Properties\Resources.resx
+    - ESP2\Properties\Settings.Designer.cs
+    - ESP2\Properties\Settings.settings
+  - UserApplication
+    + File
+      - ESP2\UserApplication\File\FileOpen.cs
+      - ESP2\UserApplication\File\FileSave.cs
+    + Language
+      - ESP2\UserApplication\Language\LanguageChinese.cs
+      - ESP2\UserApplication\Language\LanguageEnglish.cs
+      - ESP2\UserApplication\Language\LanguageSwitch.cs
+    + Parameters
+      - ESP2\UserApplication\Parameters\ParametersGenerate.cs
+      - ESP2\UserApplication\Parameters\ParametersList.cs
+    + SerialPort
+      - ESP2\UserApplication\SerialPort\SerialPortReceive.cs
+      - ESP2\UserApplication\SerialPort\SerialPortSend.cs
+    + Timer
+      - ESP2\UserApplication\Timer\AccurateTimer.cs
+    - ESP2\UserApplication\InitializeInitializeControls.cs
+    - ESP2\UserApplication\VARIANT_TYPEDEF.cs
+  - UserControl
+    - ESP2\UserControl\UC_LineHorizontal.cs
+    - ESP2\UserControl\UC_LineHorizontal.Designer.cs
+    - ESP2\UserControl\UC_LineVertical.cs
+    - ESP2\UserControl\UC_LineVertical.Designer.cs
+    - ESP2\UserControl\UC_ListView.cs
+    - ESP2\UserControl\UC_ListView.Designer.cs
+    - ESP2\UserControl\UC_Oscilloscope.cs
+    - ESP2\UserControl\UC_Oscilloscope.Designer.cs
+    - ESP2\UserControl\UC_TextBox.cs
+    - ESP2\UserControl\UC_TextBox.Designer.cs
+    - ESP2\UserControl\UC_ToolStrip.cs
+    - ESP2\UserControl\UC_ToolStrip.Designer.cs
+  + UserForm
+    - ESP2\UserForm\About.cs
+    - ESP2\UserForm\About.Designer.cs
+    - ESP2\UserForm\About.resx
+    - ESP2\UserForm\Clock_And_Timer.cs
+    - ESP2\UserForm\Clock_And_Timer.Designer.cs
+    - ESP2\UserForm\Clock_And_Timer.resx
+    - ESP2\UserForm\layout1.cs
+    - ESP2\UserForm\layout1.Designer.cs
+    - ESP2\UserForm\layout1.resx
+    - ESP2\UserForm\layout2.cs
+    - ESP2\UserForm\layout2.Designer.cs
+    - ESP2\UserForm\layout2.resx
+    - ESP2\UserForm\layout3.cs
+    - ESP2\UserForm\layout3.Designer.cs
+    - ESP2\UserForm\layout3.resx
+  - ESP2\MainForm.cs
+  - ESP2\MainForm.Designer.cs
+  - ESP2\MainForm.resx
+  - ESP2\Program.cs
+  - ESP2\UC_SerialPort.cs
+scroll:0
+[State]
+SCREEN: 1366 768 150 150 1025 526 0 0 M 0 0 0 0 1117 402 0
+CWD: ESP2
+BUFFER: BN="ESP2\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=71 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="ESP2\UC_SerialPort.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.2685 CL=26 LE=0 CX=26 CY=17 WI=5 BI=25 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="ESP2\MainForm.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.6051 CL=34 LE=0 CX=34 CY=12 WI=5 BI=23 HT=0 HN=0 HF=0 HC=4
+WINDOW: 20 25 865 281 -1 -1 N  WF=0 WT=2 "Default Unicode Font,10,0,1"
+BUFFER: BN="ESP2\Program.cs"
+VIEW: LN=.0 CL=1 LE=0 CX=5 CY=0 WI=171 BI=24 HT=0 HN=0 HF=0 HC=4
+WINDOW: 40 50 865 281 -1 -1 N  WF=0 WT=4 ",,,"
+BUFFER: BN="ESP2\UC_SerialPort.cs"
+VIEW: LN=.2685 CL=26 LE=0 CX=30 CY=17 WI=173 BI=25 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 865 281 -1 -1 M  WF=0 WT=1 ",,,"
+BUFFER: BN="ESP2\MainForm.cs"
+VIEW: LN=.5736 CL=43 LE=0 CX=48 CY=13 WI=169 BI=23 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+D:\Work\Anthony\Project\VS2005\Projects_old2\EEA\EEA\bin\Debug\EEA_20120708_154332_生成范例.bin
+D:\Project\Main_20150929\main\main\A_MCUCheck_Pub.h
+D:\Project\Main_20150929\main\main\GvCtr.c
+D:\Project\Main_20150929\main\main\IgnCtr.c
+D:\Project\Main_20150929\main\main\IoInput.c
+ESP2\MainForm.resx
+ESP2\Program.cs
+ESP2\UC_SerialPort.cs
+ESP2\MainForm.cs
+PROJECT_CACHE: 0
+TBCLASS: 0 0

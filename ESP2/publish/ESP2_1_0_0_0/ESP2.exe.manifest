@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="ESP2.exe" version="1.0.0.0" publicKeyToken="b45436aaca624c46" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ESP2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ESP2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="7.8.0.2" publicKeyToken="5FD520D36328F741" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ESP2.exe" size="53248">
+      <assemblyIdentity name="ESP2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+WOPVYJzgqtbCyLwdqODj/A4TIk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ECOVILAN\chend" issuerKeyHash="8324d27e41c02f11aa95890a3bba7e62bb944768" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cCjJqvQWMMTsr8V2lwuEeEpXcFQ=</DigestValue></Reference></SignedInfo><SignatureValue>zHiHZ+apViIk0vO0/HRTLosB24kWlNgS/NbDWRo/8bXbJu5pmIMpy8CDY7Un6tiznR7mnNArda5vLsy4XtIoh6cn9V6snNXzGEhnZ3Fw7ZGwNlsDEZd8G4UqNlYr6OP1Kpm2thaaTyDvJCDckplkL/+FAmQUF9skYT+f9Y3kRhM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6IP9a9MqnhBL08GgJmhIAhIj0EBVUoFWidBnzn9yWgemm/5jQVzyiIM1vcMJ/WKuVXK9rbl1t8uzqkupMpEevX3ElSAQD4Gwd2I8eXJ4937gNTLKlH93LjygVHbI0fpaQdB0S2a40dCOhfNPsxuC2CDQjfPpM7KewYEDWFeeh1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5470574a78840b9776c5afecc43016f4aac92870" Description="" Url=""><as:assemblyIdentity name="ESP2.exe" version="1.0.0.0" publicKeyToken="b45436aaca624c46" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ECOVILAN\chend</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>G7JsPsdDa0gA+prm4facoy1cNRI=</DigestValue></Reference></SignedInfo><SignatureValue>Wbkark8jsGAglyg3owiUrNHfhERhiH1fzh4MgKfzUTEVVfezGBA0M1v1N/asflUucC0kpyfFmAqoOw47O46Qh85FPY8QnSOKEtViykoZfLOK/fVDkSVHJyFilmXU2gk5jf4WmwP4VEU6lDznExveoYmGapLmvwyraOe9F9RZBf0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6IP9a9MqnhBL08GgJmhIAhIj0EBVUoFWidBnzn9yWgemm/5jQVzyiIM1vcMJ/WKuVXK9rbl1t8uzqkupMpEevX3ElSAQD4Gwd2I8eXJ4937gNTLKlH93LjygVHbI0fpaQdB0S2a40dCOhfNPsxuC2CDQjfPpM7KewYEDWFeeh1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATagAwIBAgIQeYer8WgJkYJO1sfcQO67MDAJBgUrDgMCHQUAMCcxJTAjBgNVBAMeHABFAEMATwBWAEkATABBAE4AXABjAGgAZQBuAGQwHhcNMTIxMjEzMDcyMTE3WhcNMTMxMjEzMTMyMTE3WjAnMSUwIwYDVQQDHhwARQBDAE8AVgBJAEwAQQBOAFwAYwBoAGUAbgBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDog/1r0yqeEEvTwaAmaEgCEiPQQFVSgVaJ0GfOf3JaB6ab/mNBXPKIgzW9wwn9Yq5Vcr2tuXW3y7OqS6kykR69fcSVIBAPgbB3Yjx5cnj3fuA1MsqUf3cuPKBUdsjR+lpB0HRLZrjR0I6F80+zG4LYINCN8+kzsp7BgQNYV56HWQIDAQABMAkGBSsOAwIdBQADgYEAQexZei2+N/gtY87E/US2ukEQQb+k+yAqd9FyB3K+Db3jej3iqlCFHearqO3UECxUILrSKIX2ml8F/X0Ok6ZYSd8udHofU/dbIJNO5HgJvYGsEGTaM/CNEmIbeMFsqHpcy2KC5cv/s5/51aWDY9roG4g+nQgfjyeDYAwSfJxpDvQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,212 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F127B92-5A7E-4DD3-A861-C9138B5AF303}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESP2</RootNamespace>
+    <AssemblyName>ESP2</AssemblyName>
+    <ManifestCertificateThumbprint>FCA9306C746DAD2223624BDE32B75940D85294CF</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ESP2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UserForm\Clock_And_Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\Clock_And_Timer.Designer.cs">
+      <DependentUpon>Clock_And_Timer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\layout1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\layout1.Designer.cs">
+      <DependentUpon>layout1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\layout2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\layout2.Designer.cs">
+      <DependentUpon>layout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\layout3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\layout3.Designer.cs">
+      <DependentUpon>layout3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_SerialPort.cs" />
+    <Compile Include="UserApplication\Timer\AccurateTimer.cs" />
+    <Compile Include="UserApplication\InitializeInitializeControls.cs" />
+    <Compile Include="UserApplication\Language\LanguageChinese.cs" />
+    <Compile Include="UserApplication\Language\LanguageEnglish.cs" />
+    <Compile Include="UserApplication\Language\LanguageSwitch.cs" />
+    <Compile Include="UserApplication\Parameters\ParametersList.cs" />
+    <Compile Include="UserForm\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\File\FileOpen.cs" />
+    <Compile Include="UserApplication\Parameters\ParametersGenerate.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UserForm\Clock_And_Timer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Clock_And_Timer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\layout1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>layout1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\layout2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>layout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\layout3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>layout3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserApplication\File\FileSave.cs" />
+    <Compile Include="UserApplication\SerialPort\SerialPortReceive.cs" />
+    <Compile Include="UserApplication\SerialPort\SerialPortSend.cs" />
+    <Compile Include="UserControl\UC_Oscilloscope.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_Oscilloscope.Designer.cs">
+      <DependentUpon>UC_Oscilloscope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UC_ToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_ToolStrip.Designer.cs">
+      <DependentUpon>UC_ToolStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UC_LineHorizontal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_LineHorizontal.Designer.cs">
+      <DependentUpon>UC_LineHorizontal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UC_LineVertical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_LineVertical.Designer.cs">
+      <DependentUpon>UC_LineVertical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UC_ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_ListView.Designer.cs">
+      <DependentUpon>UC_ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UC_TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\UC_TextBox.Designer.cs">
+      <DependentUpon>UC_TextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\VARIANT_TYPEDEF.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnected.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

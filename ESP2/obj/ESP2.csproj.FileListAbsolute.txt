@@ -1,0 +1,74 @@
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.exe.manifest
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.application
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.exe
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.pdb
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.About.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.MainForm.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.Properties.Resources.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.csproj.GenerateResource.Cache
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.TrustInfo.xml
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.exe.manifest
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.application
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.exe
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.pdb
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout1.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout2.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout3.resources
+C:\Documents and Settings\chend\My Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.Clock_And_Timer.resources
+C:\Users\Anthony\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.exe
+C:\Users\Anthony\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.exe
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.Clock_And_Timer.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout1.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout2.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.layout3.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.About.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.MainForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.exe.manifest
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.application
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.exe
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\bin\Debug\ESP2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.TrustInfo.xml
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.exe.manifest
+C:\Users\Administrator\Documents\Visual Studio 2005\Projects\ESP2\ESP2\obj\Debug\ESP2.application
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.exe
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.pdb
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Debug\ESP2.exe.manifest
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Debug\ESP2.application
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Debug\ESP2.exe
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Debug\ESP2.pdb
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.Clock_And_Timer.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.layout1.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.layout2.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.layout3.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.About.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.MainForm.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.Properties.Resources.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.csproj.GenerateResource.Cache
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.TrustInfo.xml
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.exe.manifest
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Debug\ESP2.application
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Release\ESP2.exe.manifest
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Release\ESP2.application
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Release\ESP2.exe
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\bin\Release\ESP2.pdb
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.Clock_And_Timer.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.layout1.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.layout2.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.layout3.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.About.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.MainForm.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.Properties.Resources.resources
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.csproj.GenerateResource.Cache
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.TrustInfo.xml
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.exe.manifest
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.application
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.exe
+C:\Users\dongchen\Documents\VCS Projects\ESP2\ESP2\obj\Release\ESP2.pdb
